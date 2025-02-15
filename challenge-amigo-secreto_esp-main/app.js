@@ -11,13 +11,11 @@ function agregarTextoElemento(elemento,texto){
 function agregarAmigo(){
     let nombre = document.getElementById("amigo").value;
     console.log(nombre);
-    console.log(nombre == "");
     if (nombre == ""){
         return alert("numero no valido");
     } else{
         amigos.push(nombre);
         console.log(amigos);
-        agregarTextoElemento("listaAmigos", `${amigos}`);
         limpiarCaja();
     }
     }
@@ -25,7 +23,15 @@ function agregarAmigo(){
 
 
 function limpiarCaja(){
-    agregarTextoElemento("amigo", "");
+    let valorCaja = document.getElementById("amigo");
+    valorCaja.value = "";
+}
+
+function actualizarLista (){
+   let listaNombres = document.getElementById("listaAmigos");
+
+    return;
 }
 
 agregarAmigo();
+actualizarLista();
