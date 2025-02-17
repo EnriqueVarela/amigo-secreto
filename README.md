@@ -4,5 +4,4 @@
   
 <p> Pasos a seguir:</p>
 <p>- Agregar a uno por uno a sus amigos, ingresando los nombres en la barra y clickando botón "Añadir".</p>
-<p>- Clickar botón "Sortear Amigo" para revelar la persona seleccionada.</p> </br>
-<p> HolaMunod! </p>
+<p>- Clickar botón "Sortear Amigo" para revelar la persona seleccionada.</p>
